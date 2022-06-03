@@ -62,19 +62,7 @@ async function startGojoMdNx() {
         printQRInTerminal: true,
         browser: ['Itsme-shan/SHANZ-BOT','Safari','1.0.0'],
         auth: state
-    })
 
-    store.bind(GojoMdNx.ev)
-    
-    // anticall auto block
-    GojoMdNx.ws.on('CB:call', async (json) => {
-    const callerId = json.content[0].attrs['call-creator']
-    if (json.content[0].tag == 'offer') {
-    let pa7rick = await GojoMdNx.sendContact(callerId, global.owner)
-    GojoMdNx.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : pa7rick })
-    await sleep(8000)
-    await GojoMdNx.updateBlockStatus(callerId, "block")
-    }
     })
 
     GojoMdNx.ev.on('messages.upsert', async chatUpdate => {
