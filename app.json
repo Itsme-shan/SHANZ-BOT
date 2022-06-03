@@ -1,0 +1,27 @@
+{
+  "name": "SHANZ-BOT",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/Itsme-shan/SHANZ-BOT",
+  "logo": "https://telegra.ph/file/cbe4260c2cc5ba296a4a3.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
