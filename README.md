@@ -40,7 +40,7 @@ Add FFmpeg to PATH environment variable
 
 * Scan QR In Your Whatsapp From [Here](https://replit.com/@MalinduHirushan/SHANZ-BOT?outputonly=1&lite=1)
 * Fork This Repo By Clicking [Here](https://github.com/Itsme-shan/SHANZ-BOT/fork)
-* then Deploy The Bot From [Here](https://heroku.com/deploy)
+* then Deploy The Bot From [Here](https://heroku.com/deploy?template=https://github.com/Itsme-shan/SHANZ-BOT)
 * Wait 5-10 Min To Deploy 
 * After Deploying On The Worker And Check The Logs
 
