@@ -101,7 +101,23 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 |   Owner     |       ✅    |
 |   Islami     |       ✅     |
 |   Downloader     |       ✅     |
-|   Webzone     |       ✅[      |
+|   Tiktok     |       ✅     |
+|   Facebook     |       ✅     
+|   Twitter     |       ✅     |
+|   Instagram     |       ✅     |
+|   Antilink     |       ✅     |
+|   Auto Sticker     |       ✅     |
+|   Games     |       ✅     |
+|   Emoji reaction     |       ✅     |
+|   Setmenu     |       ✅     |
+|   RPG menu     |       ✅     |
+|   Anti toxic     |       ✅     |
+|   Anti virus     |       ✅     |
+|   Image broadcast     |       ✅     |
+|   Video broadcast     |       ✅     |
+|   Audio broadcast     |       ✅     |
+|   Location broadcast     |       ✅     |
+|   Webzone     |       ✅      |
 |   Searching     |       ✅      |
 |   Textpro     |       ✅      |
 |   Ephoto     |       ✅     |
@@ -112,6 +128,8 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 |   Nekos Life     |       ✅      |
 |   More Nsfw     |       ✅      |
 |   Creator     |       ✅      |
+|   Many more     |       ✅     |
+|   All features works     |       ✅     |
 
 </details>
 
