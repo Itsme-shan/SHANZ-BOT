@@ -66,7 +66,7 @@ Add FFmpeg to PATH environment variable
 
 * Fork This Repo By Clicking [Here](https://github.com/Itsme-shan/SHANZ-BOT/fork)
 
-* then Deploy The Bot From [Here](https://dashboard.heroku.com/new-app)
+* then Deploy The Bot From [Here](https://heroku.com/deploy?template=https://github.com/Itsme-shan/SHANZ-BOT)
 
 * Wait 5-10 Min To Deploy 
 
